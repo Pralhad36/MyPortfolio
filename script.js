@@ -282,7 +282,7 @@ gsap.from("#home3 h1",{
         trigger:"#home3",
         scroller:"#main",
         scrub:1,
-        // markers:true,
+        markers:true,
         start: "top 50%",
         end:"top 55%"
     }
