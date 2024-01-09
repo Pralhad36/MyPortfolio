@@ -264,7 +264,7 @@ gsap.from("#moreaboutme",{
     scrollTrigger:{
         trigger:"#moreaboutme",
         scroller:"#main",
-        scrub:2,
+        scrub:1,
         // markers:true,
         start: "top 10%",
         end:"top 10%"
