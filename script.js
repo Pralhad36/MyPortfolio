@@ -451,6 +451,7 @@ gsap.from(" #home5 #Experiance h1", {
 
 gsap.from("#contact h2",{
     opacity:0,
+    y:100,
     duration:2,
     stagger:2,
     scrollTrigger:{
