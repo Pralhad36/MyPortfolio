@@ -457,10 +457,10 @@ gsap.from("#contact h2",{
     scrollTrigger:{
         trigger:"#contact",
         scroller:"#main",
-        scrub:3,
+        scrub:2,
         // markers:true,
         start: "top 30%",
-        end:"top 0%"
+        end:"top 25%"
     }
 
 } )
@@ -468,15 +468,15 @@ gsap.from("#contact h2",{
 gsap.from("#contact h3",{
     opacity:0,
     y:100,
-    duration:0.5,
-    stagger:0.5,
+    duration:1,
+    stagger:1,
     scrollTrigger:{
         trigger:"#contact",
         scroller:"#main",
         scrub:2,
         // markers:true,
         start: "top 30%",
-        end:"top 25%"
+        end:"top 20%"
     }
 
 } )
