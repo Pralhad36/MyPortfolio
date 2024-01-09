@@ -861,7 +861,7 @@ body {
 
 #frontend .icons1 {
     animation-name: scroll;
-    animation-duration: 15s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     padding-top: 30px;
@@ -922,7 +922,7 @@ body {
 #backend .icons2 {
     /* display: inline-block; */
     animation-name: scroll2;
-    animation-duration: 15s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: reverse;
@@ -1045,8 +1045,8 @@ body {
     }
 
     #home {
-        height: 55vh;
-        margin: 8vw 0vw
+        height: 75vh;
+        margin: 2vw 0vw;
     }
 
     #homeLeft {
