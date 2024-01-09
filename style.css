@@ -1045,7 +1045,7 @@ body {
     }
 
     #home {
-        height: 65vh;
+        height: 55vh;
         margin: 8vw 0vw
     }
 
@@ -1059,10 +1059,10 @@ body {
     }
 
     #home #overlay {
-        width: 95vw;
-        padding: 8vw 5vw;
+        width: 100%;
+        padding: 2vw 5vw;
         background-color: transparent;
-        height: 85vh;
+        height: 100%;
     }
 
     #homeLeft h3 {
@@ -1162,7 +1162,7 @@ body {
 
     #moreaboutme {
         width: 100%;
-        height: 70vh;
+        height: 100vh;
         font-family: moranga;
         font-size: 6vw;
         display: flex;
@@ -1178,7 +1178,7 @@ body {
 
     #aboutMe {
         width: 100%;
-        height: 200vh;
+        height: 150vh;
         display: block;
         align-items: center;
         justify-content: center;
@@ -1200,7 +1200,7 @@ body {
     }
 
     #home2 {
-        height: 70vh;
+        height: 100vh;
         margin-bottom: 0vh;
         /* gap: 0%; */
         /* background-color:#178989; */
@@ -1233,6 +1233,7 @@ body {
         width: 100%;
         height: 75%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 0vh 0vh;
@@ -1242,14 +1243,25 @@ body {
     }
 
     #eduImageContainer .eduImage {
-        width: 30vw;
-        height: 40vw;
+        width: 50vw;
+        height: 60vw;
 
     }
 
+    #eduImageContainer #eduImage1 {
+        margin-left: 30vw;
+    }
+
+    #eduImageContainer #eduImage2 {
+        margin-right: 30vw;
+    }
+
+    #eduImageContainer #eduImage3 {
+        margin-left: 30vw;
+    }
 
     .eduImage .eduoverlay h4 {
-        font-size: 3vw;
+        font-size: 3.5vw;
         line-height: 1.8;
     }
 
