@@ -33,12 +33,12 @@ function revealToSpan () {
 }
 revealToSpan();
 
-// document.querySelector("body").addEventListener('mousemove',function(dets){
-//     gsap.to('#cursor',{
-//         left:dets.x,
-//         top:dets.y,
-//     })
-// })
+document.querySelector("body").addEventListener('mousemove',function(dets){
+    gsap.to('#cursor',{
+        left:dets.x,
+        top:dets.y,
+    })
+})
 
 
 
