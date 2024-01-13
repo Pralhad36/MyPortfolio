@@ -1,5 +1,7 @@
 
-
+document.addEventListener("contextmenu",function(e){
+    e.preventDefault()
+},false)
 const navItems = document.querySelectorAll(".navmenu a")
 
 function changeColor(index){
