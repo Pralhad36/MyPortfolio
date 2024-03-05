@@ -23,9 +23,10 @@ body {
     height: 100%;
     /* perspective: 200px; */
     /* background-color: #07080D; */
-    background-image: url(./images/stanislav-uC_z7qWZB5w-unsplash.jpg);
-    /* background-size: cover; */
+    background-image: url(./images/13311414_v627-aew-41-technologybackground.jpg);
+    background-size: cover;
     perspective: 800px;
+    background-position: center;
 
 }
 
@@ -132,7 +133,7 @@ body {
     /* display: flex;
     flex-direction: column; */
     overflow: hidden;
-    background-image: url(./images/brecht-corbeel-YCXdH_W_cLo-unsplash.jpg);
+    /* background-image: url(./images/brecht-corbeel-YCXdH_W_cLo-unsplash.jpg); */
     background: fixed;
     background-size: cover;
     background-position: center;
@@ -153,7 +154,9 @@ body {
     /* top: -150%; */
     height: 10vh;
     position: relative;
-    background-color: #07080D;
+    background-color: transparent;
+
+
 
 
     /* position: absolute; */
@@ -259,7 +262,7 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     position: relative;
-    background-image: url(./images/laurin-steffens-oNiZKx-BsBQ-unsplash.jpg);
+    /* background-image: url(./images/laurin-steffens-oNiZKx-BsBQ-unsplash.jpg); */
     background-position: center;
     background-size: cover;
     color: aliceblue;
@@ -1015,12 +1018,7 @@ body {
         /* background-color: aqua; */
     }
 
-    #nav {
-        padding: 10px 0px;
-        height: 8vh;
-        justify-content: center;
-        gap: 1.5px
-    }
+
 
     #nav #logo img {
         width: 10vw;
