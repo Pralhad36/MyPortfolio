@@ -146,8 +146,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-decoration: none;
+    padding-inline: 60px;
     text-transform: uppercase;
     width: 100%;
     /* top: -150%; */
@@ -1117,7 +1118,8 @@ body {
 }
 
 #Testing .icons2 img {
-    width: 130px;;
+    width: 130px;
+    ;
     transition: all ease 0.4s;
     margin-left: 30px;
     border-radius: 60%;
@@ -1190,12 +1192,15 @@ body {
         /* background-color: aqua; */
     }
 
-    #nav {
+    /* #nav {
         padding: 10px 0px;
         height: 8vh;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #008080;
+
         gap: 1.5px
-    }
+    } */
 
     #nav #logo img {
         width: 10vw;
