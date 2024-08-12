@@ -257,7 +257,7 @@ body {
     width: 100%;
     height: 41vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     /* flex-wrap: wrap; */
     position: relative;
     /* background-image: url(./images/laurin-steffens-oNiZKx-BsBQ-unsplash.jpg); */
@@ -265,24 +265,14 @@ body {
     background-size: cover;
     color: aliceblue;
     font-family: moranga;
-
-}
-
-#home #overlay {
-    width: 90vw;
-    height: 100vh;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    position: absolute;
-    padding: 40px 30px;
-    border-radius: 50px;
-    /* background-color: rgba(128, 128, 128, 0.082); */
-    backdrop-filter: blur(10px);
     margin: 0px 40px;
-    color: aliceblue;
-    background-color: transparent;
+
+
+
+
 }
+
+
 
 
 #homeLeft {
@@ -516,7 +506,7 @@ body {
     height: 100%;
     overflow: hidden;
     opacity: 0;
-    background-color: rgba(190, 144, 235, 0.938);
+    background-color: gray;
     transition: all ease 0.5s;
     position: absolute;
 }
@@ -1049,19 +1039,6 @@ body {
     z-index: 99999
 }
 
-#backend .linearL {
-    width: 10%;
-    height: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: white; */
-    /* background:linear-gradient(to right transparent,black); */
-    background-image: linear-gradient(to right, black, transparent);
-    position: absolute;
-    z-index: 99999;
-    left: 10%;
-}
 
 #Testing .linearR {
     width: 15%;
@@ -1074,8 +1051,7 @@ body {
     position: absolute;
     right: 0%;
     z-index: 99999;
-    top: 30%;
-    /* background-color: #008080; */
+    top: 20%;
 
 }
 
@@ -1090,22 +1066,42 @@ body {
     position: absolute;
     z-index: 99999;
     left: 0%;
-    top: 30%
+    top: 20%;
+
 }
 
 #frontend .linearL {
     width: 10%;
-    height: 20%;
+    height: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    /* background:linear-gradient(to right transparent,black); */
+    background-image: linear-gradient(to right, black, transparent);
+    position: absolute;
+    z-index: 99999;
+    left: 10%
+}
+
+#frontend .linearR {
+    width: 10%;
+    height: 23%;
     display: flex;
     align-items: center;
     justify-content: right;
     /* background-color: white; */
     /* background:linear-gradient(to right transparent,black); */
-    background-image: linear-gradient(to right, black, transparent);
+    background-image: linear-gradient(to Left, black, transparent);
     position: absolute;
-    left: 10%;
+    right: 10%;
     z-index: 99999
 }
+
+
+
+
+
 
 
 #backend .icons2 img {
@@ -1174,6 +1170,10 @@ body {
 
 @media (max-width:600px) {
 
+    .scroll-animation {
+        animation: none !important;
+    }
+
     #loader h1 #surname {
         font-size: 8vw;
     }
@@ -1220,7 +1220,7 @@ body {
     }
 
     #nav #resume {
-        width: 70px;
+        width: 60px;
         height: 30px;
         font-size: 2.2vw;
         background: #008080;
@@ -1228,25 +1228,46 @@ body {
 
     }
 
+    #home {
+        width: 88vw;
+        height: 170vw;
+        display: flex;
+        justify-content: space-between;
+        /* flex-wrap: wrap; */
+        position: relative;
+        /* background-image: url(./images/laurin-steffens-oNiZKx-BsBQ-unsplash.jpg); */
+        background-position: center;
+        background-size: cover;
+        color: aliceblue;
+        font-family: moranga;
+        margin: 10px 20px;
+        /* background-color: #888888; */
+
+
+
+
+    }
+
 
 
     #homeLeft {
-        width: 60%;
+        width: 90%;
         gap: 0.5vh;
-        padding: 0px 2px;
+        padding: 0px 4px;
         margin: 0px;
         padding-top: 0px;
         /* background-color: #178989; */
     }
 
     */ #homeLeft h3 {
-        font-size: 6vw;
+        font-size: 7vw;
         color: aliceblue;
+
 
     }
 
     #homeLeft h4 {
-        font-size: 6vw;
+        font-size: 5vw;
         color: aliceblue;
     }
 
@@ -1262,26 +1283,27 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 40%;
+        width: 0%;
         height: 70vh;
 
 
     }
 
-    #homeRight #profileImage {
+    /* #homeRight #profileImage {
         margin-bottom: 10px;
-        width: 100%;
+        width: 50%;
         height: 85vh;
+        background: #000;
 
-    }
+    } */
 
     #homeRight img {
         border-radius: 15%;
-        object-position: center;
-        width: 50vw;
+        object-position: start;
+        width: 40vw;
         position: absolute;
-        right: -70%;
-        top: 2%;
+        right: -0%;
+        top: 20%;
         border-radius: 50%;
 
 
@@ -1337,7 +1359,7 @@ body {
 
     #moreaboutme {
         width: 100%;
-        height: 80vh;
+        height: 20vh;
         font-family: moranga;
         font-size: 6vw;
         display: flex;
@@ -1347,17 +1369,18 @@ body {
         transition: all ease 0.3s;
         padding: 3vw 20vw;
         text-align: center;
+        background-color: gray;
 
     }
 
     #aboutMe {
         width: 100%;
-        height: 150vh;
+        height: 50vh;
         display: block;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 4vw 8vw;
+        padding: 2vw 8vw;
 
     }
 
@@ -1374,7 +1397,7 @@ body {
     }
 
     #home2 {
-        height: 100vh;
+        height: 80vh;
         margin-bottom: 0vh;
         /* gap: 0%; */
         /* background-color:#178989; */
@@ -1395,12 +1418,12 @@ body {
 
 
 
-    #home2 #overlayhome {
+    /* #home2 #overlayhome {
         width: 100%;
         height: 100%;
         position: absolute;
         background-color: #178989;
-    }
+    } */
 
     #eduImageContainer {
 
