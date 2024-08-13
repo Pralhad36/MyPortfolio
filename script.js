@@ -237,7 +237,7 @@ gsap.from("#aboutMe h2", {
     trigger: "#aboutMe",
     scroller: "#main",
     scrub: 1,
-    markers:true,
+    markers: false,
     start: "top 90%",
     end: "top -70%",
   },
@@ -250,10 +250,9 @@ gsap.from("#moreaboutme", {
     trigger: "#moreaboutme",
     scroller: "#main",
     scrub: 1,
-    markers:false,
+    markers: false,
     start: "top 10%",
     end: "top 10%",
-
   },
 });
 
@@ -465,4 +464,3 @@ gsap.from("#contact h3", {
     end: "top 20%",
   },
 });
-

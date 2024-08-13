@@ -246,6 +246,10 @@ body {
 
 }
 
+#nav #resume img {
+    width: 40px;
+}
+
 /* #nav #navRight a:hover {
     color: white;
 } */
@@ -297,7 +301,10 @@ body {
     font-size: 3vw;
     color: aliceblue;
 
+
 }
+
+
 
 
 
@@ -347,10 +354,10 @@ body {
 
 
 #homeLeft h1 {
-    font-size: 10vw;
-    font-family: kajiro;
+    font-size: 5vw;
+    font-family: moranga;
     color: aliceblue;
-    letter-spacing: 9px;
+    /* letter-spacing: 9px; */
     font-weight: 10;
     position: relative;
 
@@ -361,7 +368,7 @@ body {
 
 }
 
-#homeLeft h1::before {
+/* #homeLeft h1::before {
     content: 'pralhad narkar';
     color: transparent;
     position: absolute;
@@ -369,7 +376,7 @@ body {
     top: -5px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: aliceblue;
-}
+} */
 
 #homeLeft h2 {
     font-size: 40px;
@@ -391,6 +398,8 @@ body {
 }
 
 #moreaboutme {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 90vh;
     font-family: moranga;
@@ -404,6 +413,11 @@ body {
     text-align: center;
 
 
+}
+
+#moreaboutme #arrow img {
+    width: 100px;
+    background: linear-gradient(to bottom black);
 }
 
 #aboutMe {
@@ -1228,6 +1242,7 @@ body {
 
     }
 
+
     #home {
         width: 88vw;
         height: 170vw;
@@ -1358,6 +1373,7 @@ body {
     }
 
     #moreaboutme {
+
         width: 100%;
         height: 20vh;
         font-family: moranga;
@@ -1372,6 +1388,8 @@ body {
         background-color: gray;
 
     }
+
+
 
     #aboutMe {
         width: 100%;
