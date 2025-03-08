@@ -695,8 +695,8 @@ body {
 }
 #home4 #projects .projectImage p {
     text-align: center;
-    font-size: x-large;
-    color: #9701DF;
+    font-size: large;
+    color: white;
     /* background-color: #14CF93; */
 }
 
