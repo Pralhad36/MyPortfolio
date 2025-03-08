@@ -191,10 +191,10 @@ const landingPage = () => {
     duration: 1,
   });
   gsap.from("#homeRight", {
-    x: "50%",
+    x: "15%",
     // scale:0,
     opacity: 0,
-    duration: 0.5,
+    duration: 1,
     delay: 2.2,
   });
 };
@@ -209,7 +209,7 @@ gsap.from("#eduImageContainer .eduImage .eduoverlay", {
     trigger: "#home2",
     scroller: "#main",
     scrub: 2,
-    // markers:true,
+    markers:false,
     start: "top 65%",
     end: "top 60%",
   },
@@ -237,9 +237,8 @@ gsap.from("#aboutMe h2", {
     trigger: "#aboutMe",
     scroller: "#main",
     scrub: 1,
-    markers: false,
-    start: "top 75%",
-    end: "top -70%",
+    start: "top 85%",
+    end: "top -75%",
     markers: false,
   },
 });
@@ -281,7 +280,7 @@ gsap.from("#home3 h1", {
     trigger: "#home3",
     scroller: "#main",
     scrub: 2,
-    // markers: false,
+    markers: false,
     start: "top 50%",
     end: "top 90%",
   },
@@ -376,7 +375,7 @@ gsap.from("#projects .projectImage", {
     scroller: "#main",
     scrub: 1,
     markers: false,
-    start: "top 85%",
+    start: "top 95%",
     end: "top 65%",
   },
 });
