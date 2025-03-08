@@ -693,6 +693,12 @@ body {
     height: 20vw;
 
 }
+#home4 #projects .projectImage p {
+    text-align: center;
+    font-size: x-large;
+    color: #9701DF;
+    /* background-color: #14CF93; */
+}
 
 #home4 #projects #project2 img {
     object-fit: auto;
@@ -731,7 +737,7 @@ body {
     align-items: flex-end;
     padding-bottom: 35px;
     justify-content: space-evenly;
-    border-bottom: 10px solid #178989;
+    border-bottom: 10px solid #9701DF;
     border-radius: 20px;
 
 
@@ -748,7 +754,7 @@ body {
     align-items: flex-end;
     padding-bottom: 35px;
     justify-content: space-evenly;
-    border-bottom: 10px solid #178989;
+    border-bottom: 10px solid #9701DF;
     border-radius: 20px;
 
 
@@ -765,7 +771,7 @@ body {
     align-items: flex-end;
     justify-content: space-evenly;
     padding-bottom: 35px;
-    border-bottom: 10px solid #178989;
+    border-bottom: 10px solid #9701DF;
     border-radius: 20px;
 }
 
