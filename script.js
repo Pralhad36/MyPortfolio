@@ -152,7 +152,7 @@ const loaderAnimation = () => {
 loaderAnimation();
 
 gsap.from("#nav .navmenu", {
-  stagger: 0.1,
+  stagger: 0.2,
   duration: 0.5,
   delay: 1,
   y: -100,
@@ -168,10 +168,17 @@ const landingPage = () => {
     duration: 0.2,
     delay: 1,
   });
-
+  gsap.to(" #name span", {
+    opacity: 1,
+    x: 0, // Moves to original position
+    stagger: 0.2, // Delays each letter
+    duration: 1,
+    ease: "power3.out",
+  });
   tl.from("#homeLeft h1", {
     opacity: 0,
     x: -150,
+    stagger: 2,
     duration: 0.2,
   });
   tl.from("#homeLeft #sara", {
@@ -209,7 +216,7 @@ gsap.from("#eduImageContainer .eduImage .eduoverlay", {
     trigger: "#home2",
     scroller: "#main",
     scrub: 2,
-    markers:false,
+    markers: false,
     start: "top 65%",
     end: "top 60%",
   },

@@ -489,6 +489,11 @@ body {
     /* transition: all ease 0.2s; */
 
 }
+#homeLeft h1 span {
+    display: inline-block;
+            opacity: 0;
+            transform: translateX(500px);
+}
 
 
 
