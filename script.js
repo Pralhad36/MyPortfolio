@@ -238,27 +238,28 @@ gsap.from("#home2 h1", {
 gsap.from("#aboutMe h2", {
   y: 150,
   opacity: 0,
-  duration: 0.2,
-  stagger: 0.2,
+  duration: 0.3,
+  stagger: 0.4,
   scrollTrigger: {
     trigger: "#aboutMe",
     scroller: "#main",
-    scrub: 1,
-    start: "top 85%",
-    end: "top -75%",
+    scrub: 2,
+    start: "top 80%",
+    end: "top -180%",
     markers: false,
   },
 });
 
 gsap.from("#moreaboutme", {
   opacity: 0,
-  duration: 0.5,
+  duration: 0.2,
+
   scrollTrigger: {
     trigger: "#moreaboutme",
     scroller: "#main",
     scrub: 1,
     markers: false,
-    start: "top 10%",
+    start: "top 15%",
     end: "top 10%",
   },
 });
