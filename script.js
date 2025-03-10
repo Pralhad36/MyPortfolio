@@ -235,17 +235,40 @@ gsap.from("#home2 h1", {
   },
 });
 
+// gsap.from("#aboutMe h2", {
+//   y: 150,
+//   opacity: 0,
+//   duration: 0.3,
+//   stagger: 0.4,
+//   scrollTrigger: {
+//     trigger: "#aboutMe",
+//     scroller: "#main",
+//     scrub: 2,
+//     start: "top 80%",
+//     end: "top -180%",
+//     markers: false,
+//   },
+// });
+
+if (window.innerWidth >= 400) {
+  startValue = "top 90%";
+  endValue = "top -180%";
+} else {
+  startValue = "top 90%";
+  endValue = "top -60%";
+}
+
 gsap.from("#aboutMe h2", {
   y: 150,
   opacity: 0,
   duration: 0.3,
-  stagger: 0.4,
+  stagger: 0.3,
   scrollTrigger: {
     trigger: "#aboutMe",
     scroller: "#main",
     scrub: 2,
-    start: "top 80%",
-    end: "top -180%",
+    start: startValue, // Dynamically set value
+    end: endValue, // Dynamically set value
     markers: false,
   },
 });
