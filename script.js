@@ -255,7 +255,7 @@ if (window.innerWidth >= 400) {
   endValue = "top -180%";
 } else {
   startValue = "top 90%";
-  endValue = "top -60%";
+  endValue = "top -70%";
 }
 
 gsap.from("#aboutMe h2", {
