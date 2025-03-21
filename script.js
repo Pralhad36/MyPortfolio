@@ -250,19 +250,19 @@ gsap.from("#home2 h1", {
 //   },
 // });
 
-if (window.innerWidth >= 400) {
-  startValue = "top 90%";
-  endValue = "top -180%";
+if (window.innerWidth >= 386) {
+  startValue = "top 60%";
+  endValue = "top -60%";
 } else {
   startValue = "top 90%";
-  endValue = "top -70%";
+  endValue = "top -60%";
 }
 
 gsap.from("#aboutMe h2", {
-  y: 150,
+  y: 100,
   opacity: 0,
-  duration: 0.3,
-  stagger: 0.3,
+  duration: 0.5,
+  stagger: 0.4,
   scrollTrigger: {
     trigger: "#aboutMe",
     scroller: "#main",
@@ -276,14 +276,14 @@ gsap.from("#aboutMe h2", {
 gsap.from("#moreaboutme", {
   opacity: 0,
   duration: 0.2,
-
+  y: 20,
   scrollTrigger: {
     trigger: "#moreaboutme",
     scroller: "#main",
     scrub: 1,
     markers: false,
     start: "top 15%",
-    end: "top 10%",
+    end: "top 5%",
   },
 });
 
@@ -421,8 +421,8 @@ gsap.from("#home5 ", {
     scroller: "#main",
     scrub: 3,
     // markers:true,
-    start: "top 70%",
-    end: "top 10%",
+    start: "top 80%",
+    end: "top -30%",
   },
 });
 
