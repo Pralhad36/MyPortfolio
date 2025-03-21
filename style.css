@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: moranga;
-    src: url(./fonts/moranga.ttf);
+    src: url(./fonts/RobotoLight-aW3R.ttf);
 }
 
 
@@ -1030,12 +1030,13 @@ body {
     /* position: relative; */
     width: 60%;
 }
+
 #backend .icons2 img {
     border-radius: 50%;
 
-    }
+}
 
-    /* background-color: #888888; */
+/* background-color: #888888; */
 
 
 
