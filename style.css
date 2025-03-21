@@ -449,7 +449,7 @@ body {
 
 #aboutMe {
     width: 100%;
-    height: 210vh;
+    height: 200vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -623,7 +623,7 @@ body {
     color: white;
     font-family: moranga;
     text-transform: uppercase;
-    font-size: 8vw;
+    font-size: 4vw;
     text-align: center;
     /* background-color: #178989; */
     /* position: absolute; */
@@ -706,7 +706,7 @@ body {
 
 #home4 #projects .projectImage p {
     text-align: center;
-    font-size: large;
+    font-size: small;
     color: white;
     /* background-color: #14CF93; */
 }
@@ -829,7 +829,7 @@ body {
 }
 
 #Experiance h1 {
-    font-size: 8vw;
+    font-size: 4vw;
     /* font-weight: 800px; */
     text-transform: uppercase;
     /* color: rgba(0, 0, 0, 0.712); */
@@ -986,11 +986,11 @@ body {
 #home3 h1 {
 
     color: white;
-    font-size: 5vw;
+    font-size: 4vw;
     margin-right: 0vw;
     margin-bottom: 4vw;
     mix-blend-mode: difference;
-    font-family: moranga;
+    /* font-family: moranga; */
 
 }
 
