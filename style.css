@@ -381,7 +381,7 @@ body {
 
 #homeLeft h1 {
     font-size: 6vw;
-    font-family: heading;
+    font-family: Heading;
     color: white;
     text-shadow: 5px 1px 5px gray;
 
@@ -1498,7 +1498,7 @@ body {
 
     #homeLeft h1 {
         font-size: 10vw;
-        font-family: moranga;
+        font-family: Heading;
         /* color: white; */
         color: white;
         letter-spacing: 2px;
@@ -1537,7 +1537,7 @@ body {
 
     #aboutMe {
         width: 100%;
-        height: 160vh;
+        height: 150vh;
         display: block;
         align-items: center;
         justify-content: center;
@@ -1550,7 +1550,7 @@ body {
     #aboutMe h2 {
         font-family: moranga;
         font-size: 5vw;
-        color: antiquewhite;
+        color: white;
         /* text-align: center; */
         line-height: 42px;
     }
@@ -1597,6 +1597,7 @@ body {
         width: 100%;
 
 
+
     }
 
     #frontend .icons1 {
@@ -1630,7 +1631,7 @@ body {
 } */
 
     #home3 .heading h3 {
-        font-size: 8vw;
+        font-size: 5vw;
         color: white;
         padding-bottom: 2vh;
 
@@ -2066,7 +2067,7 @@ body {
 
     #home5 {
         width: 100%;
-        height: 180vh;
+        height: 190vh;
         position: relative;
         display: flex;
         align-items: top;
@@ -2205,7 +2206,7 @@ body {
 
     #contact h2 {
         font-family: moranga;
-        font-size: 10vw;
+        font-size: 8vw;
         line-height: 15vw;
     }
 

@@ -250,23 +250,23 @@ gsap.from("#home2 h1", {
 //   },
 // });
 
-if (window.innerWidth >= 386) {
+if (window.innerWidth >= 380) {
   startValue = "top 60%";
-  endValue = "top -60%";
+  endValue = "top -80%";
 } else {
-  startValue = "top 90%";
-  endValue = "top -60%";
+  startValue = "top 60%";
+  endValue = "top -80%";
 }
 
 gsap.from("#aboutMe h2", {
   y: 100,
   opacity: 0,
-  duration: 0.5,
-  stagger: 0.4,
+  duration: 0.4,
+  stagger: 0.3,
   scrollTrigger: {
     trigger: "#aboutMe",
     scroller: "#main",
-    scrub: 2,
+    scrub: 3,
     start: startValue, // Dynamically set value
     end: endValue, // Dynamically set value
     markers: false,
@@ -318,7 +318,7 @@ gsap.from("#home3 h1", {
 });
 
 gsap.from("#home3 #frontend h3", {
-  // x:-400,
+  x: -200,
   opacity: 0,
   duration: 1,
   scrollTrigger: {
@@ -327,6 +327,20 @@ gsap.from("#home3 #frontend h3", {
     // markers:true,
     scrub: 2,
     start: "top 40%",
+    end: "top 35%",
+  },
+});
+
+gsap.from("#home3 #Testing h3", {
+  x: -200,
+  opacity: 0,
+  duration: 2,
+  scrollTrigger: {
+    trigger: "#home3",
+    scroller: "#main",
+    // markers:true,
+    scrub: 2,
+    start: "top -20%",
     end: "top 30%",
   },
 });
@@ -346,7 +360,7 @@ gsap.from("#home3 #frontend .icons1", {
 
 gsap.from("#home3 #Testing .icons2", {
   opacity: 0,
-  duration: 4,
+  duration: 2,
   scrollTrigger: {
     trigger: "#home3",
     scroller: "#main",
@@ -358,9 +372,9 @@ gsap.from("#home3 #Testing .icons2", {
 });
 
 gsap.from("#home3 #backend h3", {
-  // x:400,
+  x: 200,
   opacity: 0,
-  duration: 4,
+  duration: 2,
   scrollTrigger: {
     trigger: "#backend",
     scroller: "#main",
@@ -399,12 +413,12 @@ gsap.from(" #home4 #Projectsdetails h1", {
 
 gsap.from("#projects .projectImage", {
   y: 200,
-  duration: 0.2,
+  duration: 0.5,
   stagger: 0.2,
   scrollTrigger: {
     trigger: "#Projectsdetails h1",
     scroller: "#main",
-    scrub: 1,
+    scrub: 2,
     markers: false,
     start: "top 95%",
     end: "top 65%",
@@ -483,16 +497,16 @@ gsap.from(" #home5 #Experiance h1", {
 
 gsap.from("#contact h2", {
   opacity: 0,
-  y: 100,
+  y: 120,
   duration: 0.5,
-  stagger: 0.5,
+  stagger: 0.3,
   scrollTrigger: {
     trigger: "#contact",
     scroller: "#main",
     scrub: 2,
     // markers:true,
     start: "top 30%",
-    end: "top 25%",
+    end: "top 10%",
   },
 });
 
