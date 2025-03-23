@@ -436,11 +436,21 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-    /* transition: all ease 0.3s; */
+    transition: all ease 0.3s;
     padding: 8vw 20vw;
     text-align: center;
 
 
+}
+
+.effect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4vw;
+    /* background-color: #888888; */
+    overflow: hidden;
 }
 
 #moreaboutme h2{
@@ -834,6 +844,20 @@ body {
 
 }
 
+
+#overlayhome3 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 2px 5px;
+    width: 100%;
+    height: 10vw;
+    overflow: hidden;
+    /* background :gray; */
+    /* font-weight: lighter; */
+
+}
+
 #Experiance h1 {
     font-size: 4vw;
     /* font-weight: 800px; */
@@ -919,7 +943,6 @@ body {
     justify-content: center;
     position: relative;
     font-family: gilroy;
-
 
     /* background-image: url(./images/nasa-jlV2k_Fx0fc-unsplash.jpg); */
 
@@ -1536,14 +1559,15 @@ body {
 
 
     #aboutMe {
+
         width: 100%;
-        height: 150vh;
-        display: block;
+        height: 190vh;
+        display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         padding: 2vw 5vw;
-        /* background: #008080; */
+        margin-bottom: 4vw;
 
     }
 
@@ -1557,6 +1581,16 @@ body {
 
     #aboutMe h2 span {
         text-decoration: underline;
+    }
+
+    .effect{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 12vw;
+        /* background-color: #888888; */
+        overflow: hidden;
     }
 
     #home2 {
@@ -1787,7 +1821,7 @@ body {
 
     #home3 {
         width: 100%;
-        height: 130vh;
+        height: 120vh;
         padding-bottom: 0vw;
         display: flex;
         flex-direction: column;
@@ -1795,7 +1829,6 @@ body {
         justify-content: center;
         position: relative;
         font-family: gilroy;
-        /* background-color: #14CF93; */
 
         /* background-image: url(./images/nasa-jlV2k_Fx0fc-unsplash.jpg); */
 
@@ -1870,7 +1903,6 @@ body {
         align-items: center;
         position: relative;
         font-family: gilroy;
-        /* background-color: #178989; */
 
 
     }
@@ -2067,7 +2099,7 @@ body {
 
     #home5 {
         width: 100%;
-        height: 190vh;
+        height: 200vh;
         position: relative;
         display: flex;
         align-items: top;
@@ -2077,7 +2109,6 @@ body {
         /* margin-top: 40px; */
         /* background-color: rgba(255, 255, 255, 0.664); */
         /* transition: all ease 0.5s; */
-        /* background-color:aqua; */
 
 
     }
@@ -2092,11 +2123,10 @@ body {
         width: 100%;
         height: 30vw;
         overflow: hidden;
-        /* background-color: #14CF93; */
         margin: 0;
         /* font-weight: lighter; */
 
-    }
+    }   
 
     #Experiance h1 {
         font-size: 8vw;
@@ -2118,7 +2148,6 @@ body {
         width: 100%;
         padding: 0px 0px;
         height: 35vw;
-        /* background-color: #9701DF; */
 
     }
 
@@ -2140,7 +2169,6 @@ body {
         /* color: rgba(0, 0, 0, 0.664); */
         color: white;
         height: 100%;
-        /* background-color: #9701DF; */
 
 
     }
