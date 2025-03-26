@@ -5,6 +5,7 @@
 //   },
 //   false
 // );
+<<<<<<< HEAD
 
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
@@ -61,6 +62,8 @@ document.addEventListener("DOMContentLoaded", function () {
   if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
 
+=======
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
 const navItems = document.querySelectorAll(".navmenu a");
 
 function changeColor(index) {
@@ -254,11 +257,19 @@ const landingPage = () => {
     duration: 1,
   });
   gsap.from("#homeRight", {
+<<<<<<< HEAD
     x: "10%",
     // scale:10,
     opacity: 0,
     duration: 0.6,
     delay: 2.4,
+=======
+    x: "15%",
+    // scale:0,
+    opacity: 0,
+    duration: 1,
+    delay: 2.2,
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
   });
 };
 
@@ -291,31 +302,79 @@ gsap.from("#home2 h1", {
   },
 });
 
+<<<<<<< HEAD
 gsap.from("#aboutMe h2", {
   y: 150,
   opacity: 0,
   duration: 0.2,
   stagger: 0.2,
+=======
+// gsap.from("#aboutMe h2", {
+//   y: 150,
+//   opacity: 0,
+//   duration: 0.3,
+//   stagger: 0.4,
+//   scrollTrigger: {
+//     trigger: "#aboutMe",
+//     scroller: "#main",
+//     scrub: 2,
+//     start: "top 80%",
+//     end: "top -180%",
+//     markers: false,
+//   },
+// });
+
+if (window.innerWidth >= 380) {
+  startValue = "top 20%";
+  endValue = "top -80%";
+} else {
+  startValue = "top 60%";
+  endValue = "top -80%";
+}
+
+gsap.from("#aboutMe h2", {
+  y: 40,
+  opacity: 0,
+  duration: 0.4,
+  stagger: 0.4,
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
   scrollTrigger: {
     trigger: "#aboutMe",
     scroller: "#main",
     scrub: 1,
+<<<<<<< HEAD
     start: "top 75%",
     end: "top -75%",
+=======
+    start: startValue, // Dynamically set value
+    end: endValue, // Dynamically set value
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
     markers: false,
   },
 });
 
+<<<<<<< HEAD
 gsap.from("#moreaboutme", {
   opacity: 0,
   duration: 0.5,
+=======
+gsap.from("#moreaboutme h2", {
+  opacity: 0,
+  duration: 2,
+  y: 40,
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
   scrollTrigger: {
     trigger: "#moreaboutme",
     scroller: "#main",
     scrub: 1,
     markers: false,
+<<<<<<< HEAD
     start: "top 10%",
     end: "top 2%",
+=======
+    start: "top 4%",
+    end: "top 4%",
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
   },
 });
 
@@ -338,19 +397,31 @@ gsap.from("#moreaboutme", {
 gsap.from("#home3 h1", {
   y: 50,
   opacity: 0,
+<<<<<<< HEAD
   duration: 0.5,
+=======
+  duration: 0.2,
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
   scrollTrigger: {
     trigger: "#home3",
     scroller: "#main",
     scrub: 2,
     markers: false,
+<<<<<<< HEAD
     start: "top 50%",
+=======
+    start: "top 40%",
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
     end: "top 90%",
   },
 });
 
 gsap.from("#home3 #frontend h3", {
+<<<<<<< HEAD
   // x:-400,
+=======
+  x: -200,
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
   opacity: 0,
   duration: 1,
   scrollTrigger: {
@@ -359,6 +430,23 @@ gsap.from("#home3 #frontend h3", {
     // markers:true,
     scrub: 2,
     start: "top 40%",
+<<<<<<< HEAD
+=======
+    end: "top 35%",
+  },
+});
+
+gsap.from("#home3 #Testing h3", {
+  x: -200,
+  opacity: 0,
+  duration: 2,
+  scrollTrigger: {
+    trigger: "#home3",
+    scroller: "#main",
+    // markers:true,
+    scrub: 2,
+    start: "top -20%",
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
     end: "top 30%",
   },
 });
@@ -378,7 +466,11 @@ gsap.from("#home3 #frontend .icons1", {
 
 gsap.from("#home3 #Testing .icons2", {
   opacity: 0,
+<<<<<<< HEAD
   duration: 4,
+=======
+  duration: 2,
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
   scrollTrigger: {
     trigger: "#home3",
     scroller: "#main",
@@ -390,9 +482,15 @@ gsap.from("#home3 #Testing .icons2", {
 });
 
 gsap.from("#home3 #backend h3", {
+<<<<<<< HEAD
   // x:400,
   opacity: 0,
   duration: 4,
+=======
+  x: 200,
+  opacity: 0,
+  duration: 2,
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
   scrollTrigger: {
     trigger: "#backend",
     scroller: "#main",
@@ -431,12 +529,20 @@ gsap.from(" #home4 #Projectsdetails h1", {
 
 gsap.from("#projects .projectImage", {
   y: 200,
+<<<<<<< HEAD
   duration: 0.2,
+=======
+  duration: 0.5,
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
   stagger: 0.2,
   scrollTrigger: {
     trigger: "#Projectsdetails h1",
     scroller: "#main",
+<<<<<<< HEAD
     scrub: 1,
+=======
+    scrub: 2,
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
     markers: false,
     start: "top 95%",
     end: "top 65%",
@@ -453,8 +559,13 @@ gsap.from("#home5 ", {
     scroller: "#main",
     scrub: 3,
     // markers:true,
+<<<<<<< HEAD
     start: "top 70%",
     end: "top 10%",
+=======
+    start: "top 80%",
+    end: "top -30%",
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
   },
 });
 
@@ -507,14 +618,37 @@ gsap.from(" #home5 #Experiance h1", {
     trigger: "#home5",
     scroller: "#main",
     scrub: 2,
+<<<<<<< HEAD
     // markers:true,
     start: "top 70%",
+=======
+    markers: false,
+    start: "top 55%",
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
     end: "top 50%",
   },
 });
 
 gsap.from("#contact h2", {
   opacity: 0,
+<<<<<<< HEAD
+=======
+  y: 120,
+  duration: 0.5,
+  stagger: 0.3,
+  scrollTrigger: {
+    trigger: "#contact",
+    scroller: "#main",
+    scrub: 2,
+    // markers:true,
+    start: "top 30%",
+    end: "top 10%",
+  },
+});
+
+gsap.from("#contact .cont", {
+  opacity: 0,
+>>>>>>> b6626dc82ea34bb29c51070a0ec97a50fe738f58
   y: 100,
   duration: 0.5,
   stagger: 0.5,
