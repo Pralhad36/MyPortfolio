@@ -2189,7 +2189,7 @@ body {
 
     #home5 {
         width: 100%;
-        height: 200vh;
+        height: 210vh;
         position: relative;
 
         display: flex;
@@ -2214,8 +2214,8 @@ body {
         padding: 0px 2px;
         width: 100%;
         height: 30vw;
-        overflow: hidden;
-        margin-top: 80vw;
+        /* overflow: hidden; */
+        margin-top: 20vw;
         /* font-weight: lighter; */
 
     }
@@ -2227,7 +2227,6 @@ body {
         /* color: rgba(0, 0, 0, 0.712); */
         /* color: transparent; */
         font-family: moranga;
-        color: azure;
 
 
     }
@@ -2241,15 +2240,18 @@ body {
         width: 100%;
         padding: 0px 0px;
         height: 35vw;
+        margin-bottom: 30px;
 
     }
 
     #exp h2 {
-        font-size: 6vw;
+        font-size: 5vw;
+        line-height: 30px;
+
         font-family: gilroy;
         text-align: center;
         /* color: rgba(0, 0, 0, 0.664); */
-        color: antiquewhite;
+        color: white;
     }
 
     #Responsibility ul {
